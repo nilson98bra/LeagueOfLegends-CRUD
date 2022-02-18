@@ -1,4 +1,4 @@
-# Challenge - Developer Backend - Ivanilson Santos
+# API League of Legends - Ivanilson Santos
 
 Aqui contêm as instruções para os acessos aos endponts dessa API.
 
@@ -21,8 +21,8 @@ _Body_
 
 ```javascript
 {
-  "name": "gabriel",
-  "email": "gabriel@gabriel.com",
+  "name": "nilson",
+  "email": "nilson@nilson.com",
   "password": "1213141516"
 }
 ```
@@ -35,8 +35,8 @@ _Body_
 
 ```javascript
 {
-  "name": "gabriel",
-  "email": "gabriel@gabriel.com",
+  "name": "nilson",
+  "email": "nilson@nilson.com",
   "password": "1213141516"
 }
 ```
@@ -49,7 +49,7 @@ _Body_
 
 ```javascript
 {
-    "summonerName":"Old Wolf King"
+    "summonerName":"KnifeTheSkull"
 }
 ```
 
@@ -101,9 +101,8 @@ _Body_
 
 - Para iniciar o projeto, antes de tudo, deve se executar o comando "npm install" na raiz do projeto para instalar todas as dependências necessárias, após isso, deve ser executado o comando "node server.js". Com o servidor sendo executando, api pode ser acessada com o localhost:3000.
 - O bearer token expira depois de 10 horas que o usuário realizou o Login, podendo esse tempo ser alterado no userControler.js.
-- O usuário "Praymer" não consta na base de dados do League of Legends.
 - É necessário criar um banco de dados no MongoDB Atlas, passando as suas credencias nas váriaveis de ambiente
-- As várias de ambiente necessárias para acessar o projeto são:
+- As váriaveis de ambiente necessárias para acessar o projeto são:
     
     - LOL_KEY (chave da API do LoL)
     - DB_PASSWORD
